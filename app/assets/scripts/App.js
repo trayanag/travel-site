@@ -2,9 +2,11 @@
 import MobileMenu from './modules/MobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
+import ClientArea from './modules/ClientArea'
 import '../styles/styles.css'
 import 'lazysizes'
 
+new ClientArea();
 // new Modal();
 new MobileMenu();
 new StickyHeader;
